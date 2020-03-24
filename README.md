@@ -2,6 +2,26 @@
 
 [![Build status](https://dev.azure.com/vscode-webdiag-extensions/VS%20Code%20WebDiag%20extensions/_apis/build/status/vscode-react-native%20%5Bmaster%5D)](https://dev.azure.com/vscode-webdiag-extensions/VS%20Code%20WebDiag%20extensions/_build/latest?definitionId=2)
 
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#Overview)
+- [Getting started](#Getting-started)
+- Debugging
+  - [Debugging React Native applications](#Debugging-React-Native-applications)
+  - [React Native debug configuration properties](#React-Native-debug-configuration-properties)
+- Command Palette features
+  - [Using React Native commands in the Command Palette](#Using-React-Native-commands-in-the-Command-Palette)
+  - [React Native Command Palette commands](#React-Native-Command-Palette-commands)
+- [Using Expo](Using-Expo)
+- [Developing inside a Docker Container](#Developing-inside-a-Docker-Container)
+- [Customization](#Customization)
+- [Contributing](#Contributing)
+- [Known Issues](#Known-Issues)
+
+## Overview
+
 This extension provides a development environment for React Native projects.
 Using this extension, you can debug your code and quickly run `react-native` commands from the command palette.
 
@@ -82,6 +102,23 @@ The **Run Android** command triggers `react-native run-android` and starts your 
 The **Run iOS** command similarly triggers `react-native run-ios` and starts your app in the iOS simulator (iPhone 6).
 
 The **Packager** commands allow you to start/stop the [**Metro Bundler**](https://github.com/facebook/metro-bundler) (formerly React Packager).
+
+## React Native Command Palette commands
+
+|Name|Description|
+|---|---|
+|RunAndroidSimulator|Run an Android application on Emulator|
+|RunAndroidDevice|Run an Android application on Device|
+|RunIosSimulator|Run an iOS application on Simulator|
+|RunIosDevice|Run an iOS application on Simulator|
+|RunExponent|Run Expo application|
+|StartPackager|Start Packager|
+|StopPackager|Stop Packager|
+|RestartPackager|Restart Packager|
+|PublishToExpHost|Publish to Expo|
+|ShowDevMenu|Show Dev Menu|
+|ReloadApp|Reload an application|
+|RunInspector|Run Element Inspector|
 
 ## Using Expo
 
