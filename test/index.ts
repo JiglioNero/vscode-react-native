@@ -24,6 +24,7 @@ export function run(): Promise<void> {
     mocha.invert();
 
     const testsRoot = path.resolve(__dirname);
+    
     // Register Mocha options
     return new Promise((resolve, reject) => {
         glob("**/**.test.js", { cwd: testsRoot }, (err, files) => {
